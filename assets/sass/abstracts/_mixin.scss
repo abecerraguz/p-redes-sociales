@@ -18,8 +18,15 @@
     height: auto;
 }
 
-@mixin media($breakpoint:768px,$font-size:1rem){
-    @media (min-width: $breakpoint) {
-        font-size:$font-size;
+@mixin tablet-view{
+    @media (min-width:#{$min-tablet}){
+        @content;
     }
 }
+
+@mixin view-up{
+    @media (max-width:#{$min-1080}){
+        @content;
+    }
+}
+

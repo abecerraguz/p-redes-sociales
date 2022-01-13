@@ -359,7 +359,6 @@ label, input {
 .redesSociales {
   width: 293px;
   height: 293px;
-  margin: 20px auto;
   background: #feb171;
   position: relative;
   font-size: 0;
@@ -392,6 +391,7 @@ label, input {
   height: auto;
 }
 .redesSociales__info {
+  width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -413,7 +413,7 @@ label, input {
 .redesSociales__info p {
   border-left: 2px solid #279655;
   padding-left: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.8vw;
   line-height: 140%;
   letter-spacing: 1px;
 }
@@ -432,7 +432,7 @@ label, input {
   margin: 0;
   text-shadow: 1px 5px 10px black;
   letter-spacing: 1px;
-  font-size: 1rem;
+  font-size: 0.9vw;
 }
 
 /*# sourceMappingURL=main.css.map */
