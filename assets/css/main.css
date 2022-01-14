@@ -357,8 +357,8 @@ label, input {
 }
 
 .redesSociales {
-  width: 293px;
-  height: 293px;
+  width: 1080px;
+  height: 1080px;
   background: #feb171;
   position: relative;
   font-size: 0;
@@ -367,7 +367,7 @@ label, input {
   background-size: cover;
 }
 .redesSociales__brand {
-  width: 30%;
+  width: 15%;
   height: auto;
   position: absolute;
   top: 0;
@@ -379,12 +379,13 @@ label, input {
   height: auto;
 }
 .redesSociales__icon {
-  width: 10%;
+  width: 5%;
   height: auto;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 30px;
+  right: 30px;
   z-index: 999;
+  opacity: 0.8;
 }
 .redesSociales__icon img {
   width: 100%;
@@ -392,7 +393,11 @@ label, input {
 }
 .redesSociales__info {
   width: 100%;
+  height: 300px;
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   bottom: 0;
   left: 0;
   font-size: 1rem;
@@ -413,9 +418,10 @@ label, input {
 .redesSociales__info p {
   border-left: 2px solid #279655;
   padding-left: 1rem;
-  font-size: 0.8vw;
+  font-size: 1rem;
   line-height: 140%;
   letter-spacing: 1px;
+  font-weight: 400;
 }
 .redesSociales::after {
   content: "";
@@ -430,9 +436,15 @@ label, input {
   text-transform: uppercase;
   font-family: "Georama", sans-serif;
   margin: 0;
-  text-shadow: 1px 5px 10px black;
-  letter-spacing: 1px;
-  font-size: 0.9vw;
+  letter-spacing: 3px;
+  font-size: 1.8rem;
+}
+
+.content {
+  display: block;
+  margin: 1.5rem 0 0 1.5rem;
+  position: absolute;
+  bottom: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
