@@ -367,7 +367,7 @@ label, input {
   background-size: cover;
 }
 .redesSociales__brand {
-  width: 15%;
+  width: 20%;
   height: auto;
   position: absolute;
   top: 0;
@@ -418,7 +418,7 @@ label, input {
 .redesSociales__info p {
   border-left: 2px solid #279655;
   padding-left: 1rem;
-  font-size: 1rem;
+  font-size: 1.8rem;
   line-height: 140%;
   letter-spacing: 1px;
   font-weight: 400;
@@ -437,7 +437,7 @@ label, input {
   font-family: "Georama", sans-serif;
   margin: 0;
   letter-spacing: 3px;
-  font-size: 1.8rem;
+  font-size: 3rem;
 }
 
 .content {
