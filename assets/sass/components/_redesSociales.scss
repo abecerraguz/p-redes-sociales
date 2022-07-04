@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'LibeSansRond-Bold';
+    src:  url('./../font/LibeSansRond-Bold.woff') format('woff'),
+          url('./../font/LibeSansRond-Bold.ttf') format('ttf');
+}
+
+
+
 .redesSociales{
     width: $widthRedesSociales;
     height: $heightRedesSociales;
@@ -36,7 +44,7 @@
     }
     &__info{
         width: 100%;
-        height: 300px;
+        height: 360px;
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -54,14 +62,39 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
         padding: 1rem 1rem 0.5rem 1rem;
 
-        p{
-           border-left: 2px solid #279655; 
-           padding-left: 1rem;
+
+
+        h4{
+        //    border-bottom: 2px solid #279655; 
+           padding-left: 0;
            padding-right: 3rem;
-           font-size:1.8rem;
-           line-height: 140%;
-           letter-spacing: 1px;
-           font-weight: 400;
+           font-size:4rem;
+           line-height: 100%;
+           letter-spacing:0;
+           font-weight:900;
+           margin-top: 0;
+           margin-bottom: 0;
+           position: relative;
+           font-family: "LibeSansRond-Bold", sans-serif;
+           text-shadow: 1px 5px 10px black;
+        }
+
+        h5{
+            margin-top: 0;
+            margin-bottom: 2px;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+
+        h4::after{
+            content: "";
+            height: 0.8rem;
+            background-color: #54c446;
+            border-radius: 5px;
+            display: block;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            width: calc(20%);
         }
 
 
@@ -79,11 +112,17 @@
 
         &__titulo{
             text-transform: uppercase;
-            font-family: 'Georama', sans-serif;
+            font-family: "LibeSansRond-Bold", sans-serif;
             margin: 0;
-            // text-shadow: 1px 5px 10px rgb(0 0 0);
             letter-spacing: 3px;
-            font-size:3rem;
+            font-size:4.5rem;
+            color: #54c446;
+            line-height: 0;
+            font-size:13rem;
+            text-shadow: 1px 5px 10px black;
+            position: absolute;
+            left: -3px;
+            top: 42px;
         }
 
 }
@@ -91,6 +130,17 @@
     display: block;
     margin: 1.5rem 0 0 1.5rem;
     position: absolute;
-    bottom: 30px;
+    bottom: 80px;
     left: 48px;
+}
+
+.green_text {
+    color: #2EB428;
+    background: none;
+}
+
+small{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
